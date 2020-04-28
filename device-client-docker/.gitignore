@@ -1,0 +1,7 @@
+bin/
+extract/
+obj/
+out/
+.vscode/
+
+.env

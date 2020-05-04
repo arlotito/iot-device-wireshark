@@ -1,5 +1,5 @@
 # Overview
-A docker-based setup to analyze the traffic between a simulated IoT Device and the Azure IoT HUB using Wireshark. 
+A docker-based setup to analyze the traffic between a simulated IoT Device on-prem and the Azure IoT HUB using Wireshark. 
 
 ![alt](./images/block-diagram.png)
 

@@ -1,7 +1,7 @@
 # Overview
 A docker-based setup to analyze the traffic between a simulated IoT Device on-prem and the Azure IoT HUB using Wireshark. 
 
-![alt](./images/block-diagram.png)
+![alt](./images/block-diagram2.png)
 
 ## How to use it
 * run the dockerized Wireshark as follows (additional details [here](https://github.com/ffeldhaus/docker-wireshark)):

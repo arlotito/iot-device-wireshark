@@ -9,9 +9,9 @@ A docker-based setup to analyze the traffic between a simulated IoT Device on-pr
 `docker -H <docker-host-ip> run -p 14500:14500 --restart unless-stopped --name wireshark --cap-add NET_ADMIN ffeldhaus/wireshark`
 
 
-* run the dockerized Device Client simulator, as follows ( [here](./device-client-docker/README.md) additional details about parameters, .env file, how to build it, how it works):
+* run the dockerized Device Client simulator, as follows ([here](./device-client-docker/README.md) additional details about parameters, .env file, how to build it, how it works):
 
-`docker -H <docker-host-ip> run -it --env-file ./.env arlotito/my-iot-device-simulator:0.1 <params>`
+`docker -H <docker-host-ip> run -it --env-file ./.env arlotito/my-iot-device-simulator:0.3 <params>`
 
 
 ## Traffic analysis
